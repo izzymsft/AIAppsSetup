@@ -53,7 +53,7 @@ print_message "Setting up and enabling optimizations"
 print_message "Compiling Python version ${PYTHON_INSTALL_VERSION}"
 sudo make altinstall
 
-# print_message "Appending Python Path ${PYTHON_INSTALLATION_PATH} to PATH_VARIABLE ${PATH}"
+# print_message "Appending Python Path ${PYTHON_INSTALLATION_PATH} to PATH_VARIABLE ${PATH} "
 # echo "export PATH=${PYTHON_INSTALLATION_PATH}:\$PATH" >> ~/.bashrc
 
 #print_message "Reloading Path and environment variables"
